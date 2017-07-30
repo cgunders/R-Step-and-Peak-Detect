@@ -2,6 +2,8 @@
 
 This is a script I created to measure steps and peaks in electrochemical current-time traces I collected during experiments. It uses the Changepoint package to find the changepoints in the trace. The changepoints are subtracted from the trace to generate a flat baseline with peaks that are detected using the Peaks package. 
 
+The Multi File Input script MultiDetect.R is more readable. It sees how many traces I have stored as .abf files in the specified folder and imports them. There is an optional plotting function used during fitting.
+
 Detection thresholds for both step and peak detection are important to avoid over-fitting. The minimum segment length in the changepoint detection can be used to avoid fitting peaks, leaving them for the peak detection algorithm afterward. I evaluate the goodness of the fit by inspection afterward.
 
 InitialCurrentTrace.png shows the current-time trace as initially imported.
