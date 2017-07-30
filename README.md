@@ -15,3 +15,9 @@ DetectedTraceZoomIn.png shows the same, but zoomed in on a segment and with chan
 SubtracedStepsPeakDetect.png shows the trace after steps are subtracted from the original trace with peaks remaining. This is the trace that step detection is performed on.
 
 Figure.png shows a figure that I made with the useful information (just step heights currently) obtained using this algorithm on my experimental data.
+
+Credit:
+
+Uses Changepoint library: https://github.com/rkillick/changepoint/
+
+Uses Peaks library: https://cran.r-project.org/web/packages/Peaks/index.html
