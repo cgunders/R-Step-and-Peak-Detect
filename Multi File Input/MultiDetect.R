@@ -172,7 +172,7 @@ plot_results <- function(TraceData) {
 
 #data import from .abf files
 
-ablist = dir('C:/Users/chris/Documents/DropletTranslocation/AnalysisFolder',
+ablist = dir('.../AnalysisFolder',
              full.names=TRUE)
 
 #store data into data objects
