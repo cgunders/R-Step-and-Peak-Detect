@@ -18,6 +18,8 @@ Figure.png shows a figure that I made with the useful information (just step hei
 
 Credit:
 
+Uses abf2 library: https://github.com/cran/abf2
+
 Uses Changepoint library: https://github.com/rkillick/changepoint/
 
 Uses Peaks library: https://cran.r-project.org/web/packages/Peaks/index.html
