@@ -6,15 +6,21 @@ The Multi File Input script MultiDetect.R is more readable. It sees how many tra
 
 Detection thresholds for both step and peak detection are important to avoid over-fitting. The minimum segment length in the changepoint detection can be used to avoid fitting peaks, leaving them for the peak detection algorithm afterward. I evaluate the goodness of the fit by inspection afterward.
 
-InitialCurrentTrace.png shows the current-time trace as initially imported.
+![alt text](https://github.com/cgunders/R-Step-and-Peak-Detect/blob/master/InitialCurrentTrace.png "Initial Current Trace")
 
-DetectedTrace.png shows the current-time trace with changepoint detection overlayed in red and detected peak heights in blue.
+The current-time trace as initially imported.
 
-DetectedTraceZoomIn.png shows the same, but zoomed in on a segment and with changepoint step heights in red.
+![alt text](https://github.com/cgunders/R-Step-and-Peak-Detect/blob/master/DetectedTrace.png "Detected Current Trace")
 
-SubtracedStepsPeakDetect.png shows the trace after steps are subtracted from the original trace with peaks remaining. This is the trace that step detection is performed on.
+The current-time trace with changepoint detection overlayed in red and detected peak heights in blue.
 
-Figure.png shows a figure that I made with the useful information (just step heights currently) obtained using this algorithm on my experimental data.
+![alt text](https://github.com/cgunders/R-Step-and-Peak-Detect/blob/master/DetectedTraceZoomIn.png "Detected Current Trace Zoom-In")
+
+The same, but zoomed in on a segment and with changepoint step heights in red.
+
+![alt text](https://github.com/cgunders/R-Step-and-Peak-Detect/blob/master/SubtractedStepsPeakDetect.png "Subtracted Current Trace For Peak Detection")
+
+The trace after steps are subtracted from the original trace with peaks remaining. This is the trace that step detection is performed on.
 
 Credit:
 
